@@ -8,5 +8,5 @@ jobs:
       - uses: actions/setup-go@v3
         with:
           go-version: '1.18.1'
-      - run: go build . 
-      - run: go run  
+      - run: go build rew.go
+      - run: go run  rew.go
