@@ -9,4 +9,4 @@ jobs:
         with:
           go-version: '1.18.1'
       - run: go build rew.go
-      - run: go run  rew.go
+      
